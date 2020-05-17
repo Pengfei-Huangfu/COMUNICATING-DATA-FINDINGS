@@ -14,9 +14,9 @@ It was also noticed there are some outliers in the StatedMonthlyIncome that are 
 
 The borrower APR is negatively correlated with the loan original amount, Prosper Score and Stated Monthly income. And also, the borrower APR is strongly and positively correlated to Lender Yield. On average, employed people got larger original amount than unemployed, part-time and retired people.
 
-## key Insight
+It was also noticed there are some outliers in the StatedMonthlyIncome that are too far away from most of the values, in some charts these outliers are igonred by limiting the axis values. Bar plot is very useful for  to make a clear rank from high to low and figure out what are the most frequent category for each variables.
 
-Relation between EmploymentStatus, ProsperScore and BorrowerAPR
+## key Insight
 1. Full-Time and part-time tend to have higher ProsperScore and lower BorrowerAPR
 2. Not-Employed & Self-Employed tend to have lower ProsperScore and higher BorrowerAPR
 3. Retired people have higher ProsperScore and lower BorrowerAPR
